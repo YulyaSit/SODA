@@ -1,0 +1,5 @@
+.lemonades {
+    padding: 20px 180px 0 154px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}

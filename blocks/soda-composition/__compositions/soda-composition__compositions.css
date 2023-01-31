@@ -1,0 +1,6 @@
+.soda-composition__compositions {
+    position: relative;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    box-sizing: border-box;
+}

@@ -1,0 +1,6 @@
+.sempls {
+    padding: 60px 50px 60px 150px;
+    background-color: #CEF564;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}

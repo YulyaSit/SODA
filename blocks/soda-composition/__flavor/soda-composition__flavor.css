@@ -1,0 +1,4 @@
+.soda-composition__flavor {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}

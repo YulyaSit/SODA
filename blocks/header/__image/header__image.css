@@ -1,0 +1,7 @@
+.header__image {
+    max-width: 783px;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    position: relative;
+}

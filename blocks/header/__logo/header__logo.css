@@ -1,0 +1,8 @@
+.header__logo {
+    border-radius: 50%;
+    border: 200px solid rgba(53, 48, 255, 0.2);
+    position: absolute;
+    top: -164px;
+    right: -164px;
+    z-index: 1;
+}

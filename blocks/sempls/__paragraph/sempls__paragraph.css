@@ -1,0 +1,13 @@
+.sempls__paragraph {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.3px;
+    color: #1E3264;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-top: 263px;
+    max-width: 457px;
+    width: 100%;
+}

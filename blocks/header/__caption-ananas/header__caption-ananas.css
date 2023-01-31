@@ -1,0 +1,9 @@
+.header__caption-ananas {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    z-index: 1;
+    align-self: flex-end;
+    justify-self: end;
+    margin-right: -52px;
+    margin-bottom: -37px;
+}

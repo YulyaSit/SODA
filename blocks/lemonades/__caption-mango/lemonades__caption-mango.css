@@ -1,0 +1,7 @@
+.lemonades__caption-mango {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 1;
+    margin-left: -5px;
+    margin-top: 22px;
+}

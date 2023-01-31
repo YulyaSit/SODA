@@ -1,0 +1,26 @@
+.form__name {
+    max-width: 310px;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid #FFFFFF;
+    background-color: #016450;
+    padding-bottom: 17px;
+    padding-top: 10px
+}
+
+.form__name[type="text"] {
+    color: #ffe;
+}
+
+.form__name:focus {
+    outline: none;
+}
+
+.form__name:focus + .form__label {
+    color: rgba(255, 255, 255, .5);
+}
+
+.form__name:focus::content + .form__label {
+    color: rgba(255, 255, 255, .5);
+}

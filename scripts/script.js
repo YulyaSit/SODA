@@ -1,0 +1,1 @@
+inputEmail = document.querySelector('.form__email')
