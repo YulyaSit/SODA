@@ -7,3 +7,18 @@
     margin-right: -52px;
     margin-bottom: -37px;
 }
+
+@media screen and (max-width: 1023px) {
+    .header__caption-ananas {
+        margin-right: 21px;
+        margin-bottom: 19px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__caption-ananas {
+        margin-right: 5px;
+        margin-bottom: -41px;
+        width: 98px;
+    }
+}

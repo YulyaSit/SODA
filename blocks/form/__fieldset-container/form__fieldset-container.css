@@ -6,3 +6,16 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 13px;
 }
+
+@media screen and (max-width: 1023px) {
+    .form__fieldset-container {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form__fieldset-container {
+        gap: 8px;
+    }
+}

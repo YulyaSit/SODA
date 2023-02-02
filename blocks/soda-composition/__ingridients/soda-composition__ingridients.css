@@ -7,3 +7,10 @@
 .soda-composition__ingridients:last-of-type {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .soda-composition__ingridients {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+}

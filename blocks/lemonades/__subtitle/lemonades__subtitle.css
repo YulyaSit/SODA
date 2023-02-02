@@ -17,3 +17,18 @@
         font-size: 45px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .lemonades__subtitle {
+        font-size: 60px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lemonades__subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

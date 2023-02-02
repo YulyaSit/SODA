@@ -5,3 +5,16 @@
     grid-row: 2/3;
     position: relative;
 }
+
+@media screen and (max-width: 1023px) {
+    .header__image {
+        max-width: 668px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__image {
+        max-width: 280px;
+        min-height: 216px;
+    }
+}

@@ -4,3 +4,17 @@
     font-size: 32px;
     line-height: 40px;
 }
+
+@media screen and (max-width: 1023px) {
+    .form__title {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+}

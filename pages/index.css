@@ -17,6 +17,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/soda-caption/_header/soda-caption_header_position.css);
+@import url(../blocks/button/_width_s/button_width_s.css);
  
 /* Бегущая строка */
 @import url(../blocks/marquee-container/marquee-container.css);
@@ -46,7 +47,6 @@
 
 /* Секция Семплы */
 @import url(../blocks/button/_background/button_background_color.css);
-@import url(../blocks/white-text/white-text.css);
 @import url(../blocks/sempls/sempls.css);
 @import url(../blocks/sempls/__subtitle/sempls__subtitle.css);
 @import url(../blocks/sempls/__paragraph/sempls__paragraph.css);
@@ -61,19 +61,22 @@
 @import url(../blocks/form/__label/_margin/form__label_margin_no.css);
 @import url(../blocks/form/__fieldset-container/form__fieldset-container.css);
 @import url(../blocks/form/__column-reverse/form__column-reverse.css);
+@import url(../blocks/button/_size_s/button_size_s.css);
+@import url(../blocks/form/__label/_text-size_s/form__label_text-size_s.css);
+@import url(../blocks/button/_size_m/button_size_m.css);
+@import url(../blocks/button/_height/button_height_s.css);
+
+/* секция подвала */
+@import url(../blocks/soda-caption/_footer/soda-caption_footer_gradient.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__title-list/footer__title-list.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
 
 
-@import url(../blocks/white-text-opacity/white-text-opacity.css);
-.soda-caption_footer_gradient {
-    width: 152.43px;
-    height: 152.43px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow:  0 0 0 40px rgba(85, 81, 255, .35), 0 0 0 75px #9960F6;
-    margin-left: 400px;
-}
+
 
 
 

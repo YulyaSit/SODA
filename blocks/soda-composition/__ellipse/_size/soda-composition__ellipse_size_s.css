@@ -6,3 +6,10 @@
     right: 481px;
     top: 321px;
 }
+
+@media screen and (max-width: 1023px) {
+    .soda-composition__ellipse_size_s {
+        right: 60px;
+        top: 505px;
+    }
+}

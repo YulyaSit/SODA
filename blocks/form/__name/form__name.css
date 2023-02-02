@@ -6,7 +6,7 @@
     border-bottom: 2px solid #FFFFFF;
     background-color: #016450;
     padding-bottom: 17px;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
 .form__name[type="text"] {
@@ -21,6 +21,20 @@
     color: rgba(255, 255, 255, .5);
 }
 
-.form__name:focus::content + .form__label {
-    color: rgba(255, 255, 255, .5);
+@media screen and (max-width: 1023px) {
+    .form__name {
+        max-width: 540px;
+    }
+
+    .form__name:nth-of-type(2) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form__name {
+        padding-bottom: 7px;
+        padding-top: 3px;
+    }
 }
