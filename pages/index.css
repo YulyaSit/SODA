@@ -65,6 +65,7 @@
 @import url(../blocks/form/__label/_text-size_s/form__label_text-size_s.css);
 @import url(../blocks/button/_size_m/button_size_m.css);
 @import url(../blocks/button/_height/button_height_s.css);
+@import url(../blocks/white-text-opacity/white-text-opacity.css);
 
 /* секция подвала */
 @import url(../blocks/soda-caption/_footer/soda-caption_footer_gradient.css);
@@ -74,7 +75,7 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
-
+@import url(../blocks/footer/__link/footer__link.css);
 
 
 

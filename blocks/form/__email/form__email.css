@@ -13,6 +13,7 @@
     color: #ffe;
 }
 
+
 .form__email:focus {
     outline: none;
 }
@@ -20,6 +21,11 @@
 .form__email:focus + .form__label {
     color: rgba(255, 255, 255, .5);
 }
+
+#email[value]:valid + .form__label[for="email"] {
+    color: rgba(255, 255, 255, .5);
+}
+
 
 @media screen and (max-width: 767px) {
     .form__email {

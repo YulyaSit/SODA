@@ -56,16 +56,16 @@
             <fieldset class="form__fieldset">
               <ul class="form__fieldset-container">
                 <li class="form__column-reverse">
-                  <input type="text" class="form__name inputes" id="first-name" name="first-name">
-                  <label for="first-name" class="form__label">Имя&nbsp;*</label>
+                  <input type="text" class="form__name" id="first-name" name="first-name" value required="required">
+                  <label for="first-name" class="form__label">Имя&nbsp;&ast;</label>
                 </li>
                 <li class="form__column-reverse">
-                  <input type="text" class="form__name inputes" id="second-name" name="second-name">
-                  <label for="second-name" class="form__label form__label_text-size_s">Фамилия&nbsp;*</label>
+                  <input type="text" class="form__name" id="second-name" name="second-name" value required="required">
+                  <label for="second-name" class="form__label form__label_text-size_s">Фамилия&nbsp;&ast;</label>
                 </li>
                 <li class="form__input-email form__column-reverse">
-                  <input type="email" class="form__email inputes" id="email" name="email">
-                  <label for="email" class="form__label form__label-email form__label_margin_no form__label_text-size_s">Email&nbsp;*</label>
+                  <input type="email" class="form__email" id="email" name="email" value required="required">
+                  <label for="email" class="form__label form__label-email form__label_margin_no form__label_text-size_s">Email&nbsp;&ast;</label>
                 </li>
               </ul>
             </fieldset>
@@ -77,18 +77,18 @@
       <span class="soda-caption soda-caption_footer_gradient">soda</span>
       <nav class="footer__menu">
         <ul class="footer__title">Меню
-          <li class="footer__title-list">Вкусы</li>
-          <li class="footer__title-list">Состав</li>
-          <li class="footer__title-list">Семплы</li>
+          <li class="footer__title-list"><a class="footer__link" href="#">Вкусы</a></li>
+          <li class="footer__title-list"><a class="footer__link" href="#">Состав</a></li>
+          <li class="footer__title-list"><a class="footer__link" href="#">Семплы</a></li>
         </ul>
       </nav>
       <nav class="footer__contacts">
         <ul class="footer__title">Контакты
-          <li class="footer__title-list">press@soda.io</li>
-          <li class="footer__title-list">connect@soda.io</li>
+          <li class="footer__title-list"><a class="footer__link" href="#">press&commat;soda.io</a></li>
+          <li class="footer__title-list"><a class="footer__link" href="#">connect&commat;soda.io</a></li>
         </ul>
       </nav>
-      <p class="footer__copyright">© 2021 Soda, Inc. All Rights Reserved.</p>
+      <p class="footer__copyright">&copy; 2021 Soda, Inc. All Rights Reserved.</p>
     </footer>
     <script src="./scripts/script.js"></script>
 </body>

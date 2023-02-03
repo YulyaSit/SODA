@@ -21,6 +21,14 @@
     color: rgba(255, 255, 255, .5);
 }
 
+#first-name[value]:valid + .form__label[for="first-name"] {
+    color: rgba(255, 255, 255, .5);
+}
+
+#second-name[value]:valid + .form__label[for="second-name"] {
+    color: rgba(255, 255, 255, .5);
+}
+
 @media screen and (max-width: 1023px) {
     .form__name {
         max-width: 540px;
